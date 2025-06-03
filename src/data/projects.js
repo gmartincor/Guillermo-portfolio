@@ -10,7 +10,7 @@ export const projects = [
       'Secure transaction system',
       'Open source community integration'
     ],
-    link: 'https://github.com/timeoverflow',
+    link: 'https://github.com/coopdevs/timeoverflow',
     type: 'open-source'
   },
   {
