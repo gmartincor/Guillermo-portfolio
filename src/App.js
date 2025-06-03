@@ -4,11 +4,10 @@ import {
   Menu, X, Moon, Sun, Mail, Phone, Linkedin,
   MapPin, ChevronDown, ExternalLink, Award,
   Briefcase, GraduationCap, BookOpen, Users, Target,
-  Star, ArrowRight, Globe
+  Star, ArrowRight, Globe, Github
 } from 'lucide-react';
 
-// Tu foto de perfil - coloca tu imagen en public/images/profile.jpg
-const PROFILE_IMAGE = "/images/profile.png"; // o .png según tu archivo
+const PROFILE_IMAGE = "/images/profile.png"; 
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -267,7 +266,13 @@ const Portfolio = () => {
             </div>
             
             <div className="mt-16 animate-bounce-slow">
-              <ChevronDown className="w-8 h-8 mx-auto text-gray-400" />
+              <a 
+                href="#about" 
+                className="inline-block hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 cursor-pointer"
+                aria-label="Ir a la sección Sobre mí"
+              >
+                <ChevronDown className="w-8 h-8 mx-auto text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" />
+              </a>
             </div>
           </div>
         </section>
@@ -562,19 +567,19 @@ const Portfolio = () => {
               Estoy siempre interesado en nuevos proyectos y oportunidades de colaboración
             </p>
             
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
               <a
                 href="mailto:guillermomc007@gmail.com"
-                className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
+                className="bg-white dark:bg-gray-900 px-4 md:px-8 py-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
               >
                 <Mail className="w-12 h-12 mx-auto mb-4 text-blue-600 group-hover:text-blue-700 group-hover:scale-110 transition-all" />
                 <h3 className="font-semibold text-lg mb-2">Email</h3>
-                <p className="text-gray-600 dark:text-gray-400">guillermomc007@gmail.com</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm break-words">guillermomc007@gmail.com</p>
               </a>
               
               <a
                 href="tel:+34686549594"
-                className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
+                className="bg-white dark:bg-gray-900 px-4 md:px-8 py-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
               >
                 <Phone className="w-12 h-12 mx-auto mb-4 text-purple-600 group-hover:text-purple-700 group-hover:scale-110 transition-all" />
                 <h3 className="font-semibold text-lg mb-2">Teléfono</h3>
@@ -585,17 +590,23 @@ const Portfolio = () => {
                 href="https://linkedin.com/in/Guillermo-Martin-Correa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
+                className="bg-white dark:bg-gray-900 px-4 md:px-8 py-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
               >
                 <Linkedin className="w-12 h-12 mx-auto mb-4 text-blue-700 group-hover:text-blue-800 group-hover:scale-110 transition-all" />
                 <h3 className="font-semibold text-lg mb-2">LinkedIn</h3>
                 <p className="text-gray-600 dark:text-gray-400">Guillermo Martín Correa</p>
               </a>
-            </div>
-            
-            <div className="flex items-center justify-center gap-3 text-gray-500 dark:text-gray-400">
-              <MapPin className="w-5 h-5" />
-              <span className="text-lg">Motril, España</span>
+
+              <a
+                href="https://github.com/gmartincor"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white dark:bg-gray-900 px-4 md:px-8 py-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
+              >
+                <Github className="w-12 h-12 mx-auto mb-4 text-green-600 group-hover:text-green-700 group-hover:scale-110 transition-all" />
+                <h3 className="font-semibold text-lg mb-2">GitHub</h3>
+                <p className="text-gray-600 dark:text-gray-400">@gmartincor</p>
+              </a>
             </div>
           </div>
         </section>
