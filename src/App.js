@@ -62,27 +62,27 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'TimeOverflow - Sistema de Alianzas',
-      description: 'Lideré el desarrollo de un sistema de alianzas inter-organizacionales para comunidades de bancos de tiempo.',
+      title: 'TimeOverflow - Alliance System',
+      description: 'Led the development of an inter-organizational alliance system for time bank communities.',
       tech: ['Ruby on Rails', 'PostgreSQL', 'JavaScript', 'Leaflet.js', 'Highcharts'],
       highlights: [
-        'Arquitectura full-stack con MVC',
-        'Visualización geoespacial interactiva',
-        'Sistema de transacciones seguro',
-        'Integración con comunidad open source'
+        'Full-stack architecture with MVC',
+        'Interactive geospatial visualization',
+        'Secure transaction system',
+        'Open source community integration'
       ],
       link: 'https://github.com/timeoverflow',
       type: 'open-source'
     },
     {
       title: 'Healthcare ML Integration Platform',
-      description: 'Plataforma de integración entre algoritmos de ML y aplicaciones de salud para Kerma Digital.',
+      description: 'ML algorithm integration platform for healthcare applications at Kerma Digital.',
       tech: ['Django', 'Svelte', 'Python', 'RESTful APIs', 'Docker'],
       highlights: [
-        'APIs robustas para intercambio de datos',
-        'Optimización de rendimiento',
-        'Testing comprehensivo',
-        'Arquitectura escalable'
+        'Robust APIs for data exchange',
+        'Performance optimization',
+        'Comprehensive testing',
+        'Scalable architecture'
       ],
       type: 'professional'
     }
@@ -90,36 +90,36 @@ const Portfolio = () => {
 
   const timeline = [
     {
-      date: 'Mar 2025 - Presente',
+      date: 'Mar 2025 - Present',
       title: 'Full-Stack Developer',
       company: 'TimeOverflow (Open Source)',
-      description: 'Desarrollo de funcionalidades críticas para plataforma de bancos de tiempo',
+      description: 'Development of critical features for time bank platform',
       icon: <Code className="w-5 h-5" />
     },
     {
-      date: 'Ene 2025 - Mar 2025',
+      date: 'Jan 2025 - Mar 2025',
       title: 'Software Engineer Intern',
       company: 'Kerma Digital Healthcare',
-      description: 'Desarrollo de aplicaciones healthcare con integración ML',
+      description: 'Healthcare application development with ML integration',
       icon: <Brain className="w-5 h-5" />
     },
     {
-      date: 'Mar 2021 - Dic 2023',
+      date: 'Mar 2021 - Dec 2023',
       title: 'Financial Analysis Manager',
       company: 'Junta de Andalucía',
-      description: 'Gestión financiera de proyectos gubernamentales',
+      description: 'Financial management of governmental projects',
       icon: <Briefcase className="w-5 h-5" />
     }
   ];
 
   const navigation = [
-    { name: 'Inicio', href: '#home' },
-    { name: 'Sobre mí', href: '#about' },
-    { name: 'Habilidades', href: '#skills' },
-    { name: 'Experiencia', href: '#experience' },
-    { name: 'Proyectos', href: '#projects' },
-    { name: 'Educación', href: '#education' },
-    { name: 'Contacto', href: '#contact' }
+    { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Education', href: '#education' },
+    { name: 'Contact', href: '#contact' }
   ];
 
   return (
@@ -244,8 +244,8 @@ const Portfolio = () => {
             </div>
             
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-              Transformando ideas en soluciones tecnológicas innovadoras con un enfoque en 
-              desarrollo full-stack y ciencia de datos
+              Transforming ideas into innovative technological solutions with a focus on 
+              full-stack development and data science
             </p>
             
             <div className="flex gap-4 justify-center">
@@ -254,14 +254,14 @@ const Portfolio = () => {
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg flex items-center gap-2"
               >
                 <Mail className="w-5 h-5" />
-                Contactar
+                Contact
               </a>
               <a
                 href="#projects"
                 className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 px-8 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 flex items-center gap-2"
               >
                 <ArrowRight className="w-5 h-5" />
-                Ver Proyectos
+                View Projects
               </a>
             </div>
             
@@ -269,7 +269,7 @@ const Portfolio = () => {
               <a 
                 href="#about" 
                 className="inline-block hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 cursor-pointer"
-                aria-label="Ir a la sección Sobre mí"
+                aria-label="Go to About section"
               >
                 <ChevronDown className="w-8 h-8 mx-auto text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" />
               </a>
@@ -282,37 +282,37 @@ const Portfolio = () => {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-16">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Sobre Mí
+                About Me
               </span>
             </h2>
             
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Soy un profesional apasionado por la tecnología con una sólida formación en 
-                  Business Administration y actualmente completando un Máster en Software Development 
-                  mientras curso una Licenciatura en Data Science.
+                  I am a technology-passionate professional with a solid background in 
+                  Business Administration, currently completing a Master's in Software Development 
+                  while pursuing a Bachelor's degree in Data Science.
                 </p>
                 
                 <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Mi experiencia abarca desde el desarrollo full-stack con tecnologías modernas hasta 
-                  la implementación de soluciones de ciencia de datos, siempre con un enfoque en crear 
-                  software escalable y de alta calidad.
+                  My experience spans from full-stack development with modern technologies to 
+                  implementing data science solutions, always with a focus on creating 
+                  scalable and high-quality software.
                 </p>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
                   <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border border-blue-100 dark:border-blue-800">
                     <Users className="w-8 h-8 text-blue-600 dark:text-blue-400 mb-3" />
-                    <h3 className="font-semibold text-lg mb-2">Trabajo en Equipo</h3>
+                    <h3 className="font-semibold text-lg mb-2">Teamwork</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Colaboración efectiva en entornos multidisciplinarios
+                      Effective collaboration in multidisciplinary environments
                     </p>
                   </div>
                   <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border border-purple-100 dark:border-purple-800">
                     <Target className="w-8 h-8 text-purple-600 dark:text-purple-400 mb-3" />
-                    <h3 className="font-semibold text-lg mb-2">Orientado a Resultados</h3>
+                    <h3 className="font-semibold text-lg mb-2">Results Oriented</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Enfoque en entregar soluciones de valor
+                      Focus on delivering valuable solutions
                     </p>
                   </div>
                 </div>
@@ -321,7 +321,7 @@ const Portfolio = () => {
               <div className="relative">
                 <div className="bg-gradient-to-br from-blue-500 to-purple-600 p-1 rounded-2xl">
                   <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl">
-                    <h3 className="text-2xl font-bold mb-8">Intereses Principales</h3>
+                    <h3 className="text-2xl font-bold mb-8">Main Interests</h3>
                     <div className="space-y-6">
                       <div className="flex items-center gap-4">
                         <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
@@ -329,7 +329,7 @@ const Portfolio = () => {
                       </div>
                       <div className="flex items-center gap-4">
                         <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                        <span className="text-lg">Inteligencia Artificial & ML</span>
+                        <span className="text-lg">Artificial Intelligence & ML</span>
                       </div>
                       <div className="flex items-center gap-4">
                         <div className="w-3 h-3 bg-pink-500 rounded-full"></div>
@@ -352,7 +352,7 @@ const Portfolio = () => {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-16">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Tecnologías que Domino
+                Technologies I Master
               </span>
             </h2>
             
@@ -406,7 +406,7 @@ const Portfolio = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-16">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Experiencia Profesional
+                Professional Experience
               </span>
             </h2>
             
@@ -443,7 +443,7 @@ const Portfolio = () => {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-16">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Proyectos Destacados
+                Featured Projects
               </span>
             </h2>
             
@@ -503,7 +503,7 @@ const Portfolio = () => {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-16">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Formación Académica
+                Education
               </span>
             </h2>
             
@@ -515,13 +515,13 @@ const Portfolio = () => {
                       <GraduationCap className="w-8 h-8 text-blue-600 dark:text-blue-400" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold mb-1">Máster en Software Development</h3>
-                      <p className="text-purple-600 dark:text-purple-400 font-semibold">Universidad Oberta de Catalunya</p>
+                      <h3 className="text-xl font-bold mb-1">Master's in Software Development</h3>
+                      <p className="text-purple-600 dark:text-purple-400 font-semibold">Universitat Oberta de Catalunya</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Feb 2024 - Jun 2025</p>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    Desarrollo de aplicaciones web y móviles con tecnologías modernas
+                    Web and mobile application development with modern technologies
                   </p>
                 </div>
               </div>
@@ -533,13 +533,13 @@ const Portfolio = () => {
                       <BookOpen className="w-8 h-8 text-purple-600 dark:text-purple-400" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold mb-1">Grado en Data Science</h3>
-                      <p className="text-purple-600 dark:text-purple-400 font-semibold">Universidad Oberta de Catalunya</p>
-                      <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Oct 2024 - Presente</p>
+                      <h3 className="text-xl font-bold mb-1">Bachelor's in Data Science</h3>
+                      <p className="text-purple-600 dark:text-purple-400 font-semibold">Universitat Oberta de Catalunya</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Oct 2024 - Present</p>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    Análisis de datos, machine learning y estadística avanzada
+                    Data analysis, machine learning and advanced statistics
                   </p>
                 </div>
               </div>
@@ -548,7 +548,7 @@ const Portfolio = () => {
             <div className="text-center">
               <div className="inline-flex items-center gap-3 bg-green-50 dark:bg-green-900/30 px-8 py-4 rounded-full border border-green-200 dark:border-green-800">
                 <Award className="w-6 h-6 text-green-600 dark:text-green-400" />
-                <span className="font-semibold text-lg">Contribuidor Oficial - TimeOverflow Open Source Project</span>
+                <span className="font-semibold text-lg">Official Contributor - TimeOverflow Open Source Project</span>
               </div>
             </div>
           </div>
@@ -559,12 +559,12 @@ const Portfolio = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                ¡Hablemos!
+                Let's Talk!
               </span>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-400 mb-16 leading-relaxed">
-              Estoy siempre interesado en nuevos proyectos y oportunidades de colaboración
+              I'm always interested in new projects and collaboration opportunities
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -582,7 +582,7 @@ const Portfolio = () => {
                 className="bg-white dark:bg-gray-900 px-4 md:px-8 py-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105 group"
               >
                 <Phone className="w-12 h-12 mx-auto mb-4 text-purple-600 group-hover:text-purple-700 group-hover:scale-110 transition-all" />
-                <h3 className="font-semibold text-lg mb-2">Teléfono</h3>
+                <h3 className="font-semibold text-lg mb-2">Phone</h3>
                 <p className="text-gray-600 dark:text-gray-400">+34 686 54 95 94</p>
               </a>
               
@@ -614,7 +614,7 @@ const Portfolio = () => {
         {/* Footer */}
         <footer className="bg-white dark:bg-gray-900 py-12 text-center border-t border-gray-200 dark:border-gray-800">
           <p className="text-gray-600 dark:text-gray-400 text-lg">
-            © 2025 Guillermo Martín Correa. Desarrollado con React y mucho ☕
+            © 2025 Guillermo Martín Correa. Built with React and lots of ☕
           </p>
         </footer>
       </div>
