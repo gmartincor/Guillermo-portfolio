@@ -15,14 +15,16 @@ const About = () => {
           <div className="space-y-8">
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
               I am a technology-passionate professional with a solid background in 
-              Business Administration, currently completing a Master's in Software Development 
-              while pursuing a Bachelor's degree in Data Science.
+              Business Administration and a completed Master's degree in Software Development, 
+              currently pursuing a Bachelor's degree in Data Science.
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              My experience spans from full-stack development with modern technologies to 
-              implementing data science solutions, always with a focus on creating 
-              scalable and high-quality software.
+              My experience includes full-stack development, machine learning, and artificial intelligence solutions, 
+              with specialized expertise in AI agent development, automation, and system architecture. 
+              My background in financial analysis and project management at the Junta de Andalucía provides me with a unique perspective on building technology that solves tangible business problems and delivers measurable value.
+              Proficient in software engineering, data analysis, and cloud technologies, 
+              I am committed to delivering scalable, high-quality solutions that drive digital transformation and business innovation.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
@@ -50,19 +52,19 @@ const About = () => {
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                    <span className="text-lg">Big Data & Analytics</span>
+                    <span className="text-lg">AI Agents & Intelligent Systems</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                    <span className="text-lg">Artificial Intelligence & ML</span>
+                    <span className="text-lg">Cloud Computing & Architecture</span>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-3 h-3 bg-pink-500 rounded-full"></div>
-                    <span className="text-lg">Cloud Computing</span>
+                    <div className="w-3 h-3 bg-cyan-500 rounded-full"></div>
+                    <span className="text-lg">Open Source Contributions</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    <span className="text-lg">API Design & Architecture</span>
+                    <span className="text-lg">API Design & Development</span>
                   </div>
                 </div>
               </div>

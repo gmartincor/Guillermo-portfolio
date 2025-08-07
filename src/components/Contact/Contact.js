@@ -13,7 +13,7 @@ const Contact = () => {
         </h2>
         
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-16 leading-relaxed">
-          I'm always interested in new projects and collaboration opportunities
+          I'm always interested in new software development projects, AI implementation opportunities, and professional collaboration
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">

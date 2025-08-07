@@ -4,9 +4,9 @@ export const timeline = [
   {
     id: 1,
     date: 'Mar 2025 - Present',
-    title: 'Full-Stack Developer',
+    title: 'Full-Stack Software Developer',
     company: 'TimeOverflow (Open Source)',
-    description: 'Development of critical features for time bank platform',
+    description: 'Led the design and development of a new inter-organizational alliance system, enabling different time banks to connect and share resources. Engineered the full-stack architecture using Ruby on Rails and PostgreSQL, driving community collaboration across distributed networks.',
     icon: <Code className="w-5 h-5" />
   },
   {
@@ -14,7 +14,7 @@ export const timeline = [
     date: 'Jan 2025 - Mar 2025',
     title: 'Software Engineer Intern',
     company: 'Kerma Digital Healthcare',
-    description: 'Healthcare application development with ML integration',
+    description: 'Developed and optimized RESTful APIs to integrate machine learning models into the core healthcare application. Improved data processing efficiency and system scalability for medical software solutions, enhancing patient care delivery through intelligent automation.',
     icon: <Brain className="w-5 h-5" />
   },
   {
@@ -22,7 +22,7 @@ export const timeline = [
     date: 'Mar 2021 - Dec 2023',
     title: 'Financial Analysis Manager',
     company: 'Junta de Andalucía',
-    description: 'Financial management of governmental projects',
+    description: 'Project management and financial analysis of governmental initiatives, budget planning, data analysis, and stakeholder coordination for public sector projects',
     icon: <Briefcase className="w-5 h-5" />
   }
 ];

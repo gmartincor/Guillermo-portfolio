@@ -34,12 +34,12 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <div className="flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 px-6 py-3 rounded-full border border-blue-200 dark:border-blue-800">
-            <Terminal className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-            <span className="text-lg font-semibold">Software Developer</span>
+            <Brain className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+            <span className="text-lg font-semibold">AI Engineer</span>
           </div>
           <div className="flex items-center gap-2 bg-purple-50 dark:bg-purple-900/30 px-6 py-3 rounded-full border border-purple-200 dark:border-purple-800">
-            <Brain className="w-5 h-5 text-purple-600 dark:text-purple-400" />
-            <span className="text-lg font-semibold">Data Scientist</span>
+            <Terminal className="w-5 h-5 text-purple-600 dark:text-purple-400" />
+            <span className="text-lg font-semibold">Full-Stack Developer</span>
           </div>
         </div>
         

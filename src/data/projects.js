@@ -2,16 +2,16 @@ export const projects = [
   {
     id: 1,
     title: 'ReAct Agent for Mathematical Computing',
-    description: 'Intelligent ReAct agent that combines advanced AI capabilities with mathematical computation tools for solving integral calculus problems.',
+    description: 'Engineered an intelligent ReAct agent that seamlessly integrates advanced AI reasoning with mathematical computation tools, revolutionizing automated problem-solving for complex integral calculus.',
     tech: ['Python', 'LangChain', 'LangGraph', 'Streamlit', 'PostgreSQL', 'Docker', 'Matplotlib', 'SymPy'],
     highlights: [
-      'LangGraph ReAct workflow implementation',
-      'BigTool semantic tool selection system',
-      'Google Gemini 2.5 Flash integration',
-      'Interactive mathematical visualizations',
-      'Full PostgreSQL persistence layer',
-      'Professional Docker deployment',
-      'Comprehensive Jupyter test suite'
+      'Architected production-ready LangGraph ReAct workflow',
+      'Developed BigTool semantic tool selection system for intelligent automation',
+      'Integrated Google Gemini 2.5 Flash for enhanced reasoning capabilities',
+      'Created interactive mathematical visualizations with real-time rendering',
+      'Implemented robust PostgreSQL persistence layer for data integrity',
+      'Delivered containerized deployment solution with Docker',
+      'Built comprehensive Jupyter test suite ensuring reliability'
     ],
     link: 'https://github.com/gmartincor/Euler-LanGraph-Agent',
     type: 'professional'
@@ -19,13 +19,13 @@ export const projects = [
   {
     id: 2,
     title: 'TimeOverflow - Alliance System',
-    description: 'Lead the development of an inter-organizational alliance system for time bank communities.',
+    description: 'Architected and delivered an innovative inter-organizational alliance system that revolutionizes collaboration between time bank communities, enabling seamless resource sharing across distributed networks.',
     tech: ['Ruby on Rails', 'PostgreSQL', 'JavaScript', 'Leaflet.js', 'Highcharts'],
     highlights: [
-      'Full-stack architecture with MVC',
-      'Interactive geospatial visualization',
-      'Secure transaction system',
-      'Open source community integration'
+      'Designed full-stack MVC architecture from ground up',
+      'Built interactive geospatial visualization platform',
+      'Implemented secure cross-organizational transaction system',
+      'Drove open source community adoption and engagement'
     ],
     link: 'https://github.com/coopdevs/timeoverflow',
     type: 'open-source'
@@ -33,27 +33,28 @@ export const projects = [
   {
     id: 3,
     title: 'Zento ERP - Multi-Tenant Business Management System',
-    description: 'Comprehensive ERP system designed for multi-tenant business management with hierarchical business lines, professional invoicing, and complete data portability.',
+    description: 'Architected a comprehensive enterprise-grade ERP system enabling scalable management of complex organizational hierarchies with professional-grade invoicing and complete data sovereignty.',
     tech: ['Django', 'PostgreSQL', 'Python', 'Docker', 'Gunicorn', 'Tailwind CSS'],
     highlights: [
-      'Multi-tenant architecture with PostgreSQL schemas',
-      'Professional invoicing system with PDF generation',
-      'Advanced data export system (CSV, Excel, ZIP, JSON)',
-      'Hierarchical business structure management',
-      'Real-time analytics dashboard'
+      'Engineered multi-tenant architecture utilizing PostgreSQL schemas',
+      'Engineered a professional invoicing module capable of generating custom PDF reports',
+      'Developed advanced data export system supporting multiple formats (CSV, Excel, ZIP, JSON)',
+      'Implemented hierarchical business structure management',
+      'Created real-time analytics dashboard providing actionable business insights'
     ],
     type: 'professional'
   },
   {
     id: 4,
     title: 'Healthcare ML Integration Platform',
-    description: 'ML algorithm integration platform for healthcare applications at Kerma Digital.',
+    description: 'Engineered a robust machine learning integration platform that seamlessly connects AI algorithms with healthcare applications, accelerating medical decision-making and improving patient outcomes.',
     tech: ['Django', 'Svelte', 'Python', 'RESTful APIs', 'Docker'],
     highlights: [
-      'Robust APIs for data exchange',
-      'Performance optimization',
-      'Comprehensive testing',
-      'Scalable architecture'
+      'Architected high-performance APIs for real-time data exchange',
+      'Optimized system performance and enhanced response efficiency',
+      'Delivered comprehensive test coverage ensuring system reliability',
+      'Designed scalable architecture to handle increased data throughput',
+      'Integrated ML models with secure healthcare data protocols'
     ],
     type: 'professional'
   }

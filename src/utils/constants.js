@@ -9,16 +9,18 @@ export const navigation = [
 ];
 
 export const skills = {
-  frontend: ['React', 'TypeScript', 'Svelte'],
-  backend: ['Python', 'Ruby', 'Django', 'Rails'],
-  databases: ['PostgreSQL', 'SQL'],
-  datascience: ['Pandas', 'NumPy', 'Jupyter']
+  aiengineering: ['LangChain', 'LangGraph', 'RAG', 'LLM API Integration', 'Prompt Engineering', 'Semantic Search', 'Vector Embeddings'],
+  pythonbackend: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Django', 'FastAPI', 'RESTful APIs'],
+  analytics: ['SQL', 'Matplotlib', 'Seaborn', 'Statistical Analysis', 'Jupyter Notebooks'],
+  database: ['PostgreSQL', 'Schema Design', 'Performance Tuning', 'pgvector'],
+  devops: ['Docker', 'Gunicorn', 'Git', 'GitHub'],
+  frontend: ['React', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Tailwind CSS']
 };
 
 export const personalInfo = {
   name: 'Guillermo Martín Correa',
-  title: 'Software Developer & Data Scientist',
-  tagline: 'Transforming ideas into innovative technological solutions with a focus on full-stack development and data science',
+  title: 'AI Engineer & Full-Stack Developer',
+  tagline: 'Building intelligent applications and AI agents with a full-stack engineering foundation',
   email: 'guillermomc007@gmail.com',
   phone: '+34 686 54 95 94',
   linkedin: 'https://linkedin.com/in/Guillermo-Martin-Correa',
