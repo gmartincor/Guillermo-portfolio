@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: 'TimeOverflow - Alliance System',
-    description: 'Led the development of an inter-organizational alliance system for time bank communities.',
+    description: 'Lead the development of an inter-organizational alliance system for time bank communities.',
     tech: ['Ruby on Rails', 'PostgreSQL', 'JavaScript', 'Leaflet.js', 'Highcharts'],
     highlights: [
       'Full-stack architecture with MVC',
