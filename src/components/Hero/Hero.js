@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Terminal, Brain, Mail, ArrowRight, ChevronDown } from 'lucide-react';
+import { Terminal, Brain, Mail, ArrowRight, ChevronDown } from 'lucide-react';
 import { personalInfo } from '../../utils/constants';
 
 const Hero = () => {
@@ -20,9 +20,6 @@ const Hero = () => {
               alt={personalInfo.name}
               className="w-full h-full object-cover"
             />
-          </div>
-          <div className="absolute -bottom-2 -right-2 bg-green-500 w-12 h-12 rounded-full flex items-center justify-center ring-4 ring-white dark:ring-gray-800">
-            <Code className="w-6 h-6 text-white" />
           </div>
         </div>
         
