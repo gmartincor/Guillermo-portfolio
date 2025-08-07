@@ -14,17 +14,15 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I am a technology-passionate professional with a solid background in 
-              Business Administration and a completed Master's degree in Software Development, 
-              currently pursuing a Bachelor's degree in Data Science.
+              AI Engineer and Full-Stack Developer passionate about building intelligent applications that solve real-world business challenges.
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              My experience includes full-stack development, machine learning, and artificial intelligence solutions, 
-              with specialized expertise in AI agent development, automation, and system architecture. 
-              My background in financial analysis and project management at the Junta de Andalucía provides me with a unique perspective on building technology that solves tangible business problems and delivers measurable value.
-              Proficient in software engineering, data analysis, and cloud technologies, 
-              I am committed to delivering scalable, high-quality solutions that drive digital transformation and business innovation.
+              My journey began in business administration and financial analysis, where I learned to identify core business problems and measure impact. I now channel that experience, combined with a Master's in Software Development and ongoing studies in Data Science, to build technology that delivers tangible, measurable value.
+            </p>
+            
+            <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+              I specialize in architecting autonomous systems. This involves developing sophisticated AI agents with LangChain and LangGraph to automate complex workflows, and building the robust, full-stack solutions that power them. My goal is to create scalable, high-quality software that doesn't just work, but drives genuine business innovation.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
@@ -48,23 +46,23 @@ const About = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-blue-500 to-purple-600 p-1 rounded-2xl">
               <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl">
-                <h3 className="text-2xl font-bold mb-8">Main Interests</h3>
+                <h3 className="text-2xl font-bold mb-8">Areas of Focus & Professional Interest</h3>
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                    <span className="text-lg">AI Agents & Intelligent Systems</span>
+                    <span className="text-lg">AI Agents & Autonomous Systems</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                    <span className="text-lg">Cloud Computing & Architecture</span>
+                    <span className="text-lg">Scalable System Architecture & API Design</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-cyan-500 rounded-full"></div>
-                    <span className="text-lg">Open Source Contributions</span>
+                    <span className="text-lg">Contributing to Open Source Communities</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    <span className="text-lg">API Design & Development</span>
+                    <span className="text-lg">Exploring Cloud-Native Architectures</span>
                   </div>
                 </div>
               </div>

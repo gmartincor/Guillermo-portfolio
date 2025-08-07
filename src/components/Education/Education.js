@@ -25,7 +25,7 @@ const Education = () => {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Web and mobile application development with modern technologies
+                Foundational training in software architecture, end-to-end application development, and modern engineering practices. Emphasis on creating scalable, high-quality solutions from design to deployment.
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Education = () => {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Data analysis, machine learning and advanced statistics
+                Deepening my expertise in Artificial Intelligence and Machine Learning. Focusing on predictive modeling, advanced statistical analysis, and data-driven strategies to build intelligent systems.
               </p>
             </div>
           </div>
