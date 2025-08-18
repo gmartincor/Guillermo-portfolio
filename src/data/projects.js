@@ -1,6 +1,23 @@
 export const projects = [
   {
     id: 1,
+    title: 'Voiced - AI-Powered Appointment Booking SaaS',
+    description: 'Architected an innovative SaaS platform that revolutionizes appointment scheduling through intelligent voice agents, enabling businesses to automate their booking processes with natural telephonic interactions powered by advanced AI.',
+    tech: ['Django REST Framework', 'Next.js', 'Vapi AI', 'Docker', 'Tailwind CSS', 'PostgreSQL', 'WebRTC', 'TypeScript'],
+    highlights: [
+      'Engineered full-stack SaaS architecture with Django REST backend and Next.js frontend',
+      'Integrated Vapi AI framework for natural language voice agent capabilities',
+      'Developed real-time telephonic booking system with intelligent conversation flows',
+      'Implemented multi-tenant architecture supporting scalable business operations',
+      'Built containerized microservices architecture with Docker for seamless deployment',
+      'Created responsive UI/UX with Tailwind CSS for optimal user experience',
+      'Designed robust API endpoints for seamless voice agent and booking system integration',
+      'Delivered automated appointment scheduling with conflict resolution and calendar sync'
+    ],
+    type: 'professional'
+  },
+  {
+    id: 2,
     title: 'ReAct Agent for Mathematical Computing',
     description: 'Engineered an intelligent ReAct agent that seamlessly integrates advanced AI reasoning with mathematical computation tools, revolutionizing automated problem-solving for complex integral calculus.',
     tech: ['Python', 'LangChain', 'LangGraph', 'Streamlit', 'PostgreSQL', 'Docker', 'Matplotlib', 'SymPy'],
@@ -17,7 +34,7 @@ export const projects = [
     type: 'professional'
   },
   {
-    id: 2,
+    id: 3,
     title: 'TimeOverflow - Alliance System',
     description: 'Architected and delivered an innovative inter-organizational alliance system that revolutionizes collaboration between time bank communities, enabling seamless resource sharing across distributed networks.',
     tech: ['Ruby on Rails', 'PostgreSQL', 'JavaScript', 'Leaflet.js', 'Highcharts'],
@@ -31,7 +48,7 @@ export const projects = [
     type: 'open-source'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Zento ERP - Multi-Tenant Business Management System',
     description: 'Architected a comprehensive enterprise-grade ERP system enabling scalable management of complex organizational hierarchies with professional-grade invoicing and complete data sovereignty.',
     tech: ['Django', 'PostgreSQL', 'Python', 'Docker', 'Gunicorn', 'Tailwind CSS'],
@@ -45,7 +62,7 @@ export const projects = [
     type: 'professional'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Healthcare ML Integration Platform',
     description: 'Engineered a robust machine learning integration platform that seamlessly connects AI algorithms with healthcare applications, accelerating medical decision-making and improving patient outcomes.',
     tech: ['Django', 'Svelte', 'Python', 'RESTful APIs', 'Docker'],
