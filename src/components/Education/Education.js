@@ -11,7 +11,7 @@ const Education = () => {
           </span>
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
           <div className="bg-gradient-to-br from-blue-500 to-purple-600 p-1 rounded-2xl">
             <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl h-full">
               <div className="flex items-start gap-4 mb-6">
@@ -20,7 +20,7 @@ const Education = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-1">Master's in Software Development</h3>
-                  <p className="text-purple-600 dark:text-purple-400 font-semibold">Universitat Oberta de Catalunya</p>
+                  <p className="text-purple-600 dark:text-purple-400 font-semibold">Open University of Catalonia</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Feb 2024 - Jun 2025</p>
                 </div>
               </div>
@@ -38,12 +38,50 @@ const Education = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-1">Bachelor's in Data Science</h3>
-                  <p className="text-purple-600 dark:text-purple-400 font-semibold">Universitat Oberta de Catalunya</p>
+                  <p className="text-purple-600 dark:text-purple-400 font-semibold">Open University of Catalonia</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Oct 2024 - Present</p>
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 Deepening my expertise in Artificial Intelligence and Machine Learning. Focusing on predictive modeling, advanced statistical analysis, and data-driven strategies to build intelligent systems.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
+          <div className="bg-gradient-to-br from-emerald-500 to-teal-600 p-1 rounded-2xl">
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl h-full">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="bg-emerald-50 dark:bg-emerald-900/30 p-3 rounded-lg">
+                  <GraduationCap className="w-8 h-8 text-emerald-600 dark:text-emerald-400" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-1">Bachelor's in Business Administration</h3>
+                  <p className="text-emerald-600 dark:text-emerald-400 font-semibold">University of Granada</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">2011 - 2016</p>
+                </div>
+              </div>
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Comprehensive education in business strategy, financial analysis, organizational management, and entrepreneurship. Foundation in market analysis, project management, and strategic decision-making for sustainable business growth.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-br from-amber-500 to-orange-600 p-1 rounded-2xl">
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl h-full">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="bg-amber-50 dark:bg-amber-900/30 p-3 rounded-lg">
+                  <BookOpen className="w-8 h-8 text-amber-600 dark:text-amber-400" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-1">Bachelor's in Law</h3>
+                  <p className="text-amber-600 dark:text-amber-400 font-semibold">University of Granada</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">2011 - 2016</p>
+                </div>
+              </div>
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                Legal expertise encompassing financial, commercial, and administrative law. Strong analytical thinking, regulatory compliance understanding, and contract negotiation skills essential for technology business environments.
               </p>
             </div>
           </div>
