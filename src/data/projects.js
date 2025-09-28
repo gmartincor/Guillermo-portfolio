@@ -59,6 +59,7 @@ export const projects = [
       'Implemented hierarchical business structure management',
       'Created real-time analytics dashboard providing actionable business insights'
     ],
+    link: 'https://github.com/gmartincor/zento_erp',
     type: 'professional'
   },
   {
