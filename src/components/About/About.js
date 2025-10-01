@@ -14,15 +14,11 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              AI Engineer and Full-Stack Developer passionate about building intelligent applications that solve real-world business challenges.
+              I'm a Full-Stack Software Developer passionate about building applications that create real impact. My career began in business administration and financial analysis, where I learned how to identify challenges and measure results. Today, I combine that business perspective with a Master's in Software Development and ongoing studies in Data Science to build technology that delivers measurable value.
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              My journey began in business administration and financial analysis, where I learned to identify core business problems and measure impact. I now channel that experience, combined with a Master's in Software Development and ongoing studies in Data Science, to build technology that delivers tangible, measurable value.
-            </p>
-            
-            <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I specialize in architecting autonomous systems. This involves developing sophisticated AI agents with LangChain and LangGraph to automate complex workflows, and building the robust, full-stack solutions that power them. My goal is to create scalable, high-quality software that doesn't just work, but drives genuine business innovation.
+              I have experience developing end-to-end applications with Python, Django, FastAPI, React, and PostgreSQL, and I complement this with knowledge in AI and automation using tools like LangChain and LangGraph. My goal is to design scalable, reliable, and user-focused software that not only works but also drives business innovation.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
@@ -50,19 +46,23 @@ const About = () => {
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                    <span className="text-lg">AI Agents & Autonomous Systems</span>
+                    <span className="text-lg">API Design & Scalable Architectures</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                    <span className="text-lg">Scalable System Architecture & API Design</span>
+                    <span className="text-lg">AI Integrations & Intelligent Automation</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-cyan-500 rounded-full"></div>
-                    <span className="text-lg">Contributing to Open Source Communities</span>
+                    <span className="text-lg">Big Data & Data Engineering</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    <span className="text-lg">Exploring Cloud-Native Architectures</span>
+                    <span className="text-lg">Open Source Contributions</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                    <span className="text-lg">Cloud-Native & DevOps Practices</span>
                   </div>
                 </div>
               </div>

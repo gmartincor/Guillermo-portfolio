@@ -1,5 +1,5 @@
 import React from 'react';
-import { Terminal, Brain, Mail, ArrowRight, ChevronDown } from 'lucide-react';
+import { Mail, ArrowRight, ChevronDown } from 'lucide-react';
 import { personalInfo } from '../../utils/constants';
 
 const Hero = () => {
@@ -29,14 +29,11 @@ const Hero = () => {
           </span>
         </h1>
         
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-          <div className="flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 px-6 py-3 rounded-full border border-blue-200 dark:border-blue-800">
-            <Brain className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-            <span className="text-lg font-semibold">AI Engineer</span>
-          </div>
-          <div className="flex items-center gap-2 bg-purple-50 dark:bg-purple-900/30 px-6 py-3 rounded-full border border-purple-200 dark:border-purple-800">
-            <Terminal className="w-5 h-5 text-purple-600 dark:text-purple-400" />
-            <span className="text-lg font-semibold">Full-Stack Developer</span>
+        <div className="flex items-center justify-center mb-8">
+          <div className="bg-white dark:bg-gray-800 px-8 py-4 rounded-full border border-gray-200 dark:border-gray-700 shadow-sm">
+            <span className="text-xl font-semibold text-gray-800 dark:text-gray-200">
+              Full-Stack Software Developer
+            </span>
           </div>
         </div>
         
