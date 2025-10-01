@@ -22,7 +22,7 @@ export const skillCategories = [
       },
       {
         title: 'LLM Techniques & Integration',
-        skills: ['RAG (Retrieval-Augmented Generation)', 'LLM API Integration', 'Prompt Engineering', 'Semantic Search', 'Vector Embeddings']
+        skills: ['RAG (Retrieval-Augmented Generation)', 'LLM API Integration', 'Prompt Engineering', 'Vector Databases (Chroma, Pinecone)']
       }
     ]
   },
@@ -64,7 +64,7 @@ export const skillCategories = [
       },
       {
         title: 'Deployment & Containerization',
-        skills: ['Docker', 'Gunicorn']
+        skills: ['Docker', 'Gunicorn', 'CI/CD']
       },
       {
         title: 'Version Control',
