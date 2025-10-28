@@ -4,7 +4,7 @@ export const timeline = [
   {
     id: 1,
     date: 'Mar 2025 - Present',
-    title: 'Full-Stack Software Developer',
+    title: 'Full-Stack Software Engineer',
     company: 'TimeOverflow (Open Source)',
     description: 'Led the design and development of a new inter-organizational alliance system, enabling different time banks to connect and share resources. Engineered the full-stack architecture using Ruby on Rails and PostgreSQL, driving community collaboration across distributed networks.',
     icon: <Code className="w-5 h-5" />

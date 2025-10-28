@@ -37,13 +37,13 @@ const Education = () => {
                   <BookOpen className="w-8 h-8 text-purple-600 dark:text-purple-400" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-1">Bachelor's in Data Science</h3>
-                  <p className="text-purple-600 dark:text-purple-400 font-semibold">Open University of Catalonia</p>
+                  <h3 className="text-xl font-bold mb-1">Bachelor's in Computer Science</h3>
+                  <p className="text-purple-600 dark:text-purple-400 font-semibold">International University of La Rioja (UNIR)</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Oct 2024 - Present</p>
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Deepening my expertise in Artificial Intelligence and Machine Learning. Focusing on predictive modeling, advanced statistical analysis, and data-driven strategies to build intelligent systems.
+                Comprehensive training in computer science fundamentals, software engineering, algorithms, and data structures. Focusing on building a strong theoretical and practical foundation in computing to complement real-world development experience.
               </p>
             </div>
           </div>

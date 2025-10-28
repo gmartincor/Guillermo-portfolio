@@ -14,7 +14,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I'm a Full-Stack Software Developer passionate about building applications that create real impact. My career began in business administration and financial analysis, where I learned how to identify challenges and measure results. Today, I combine that business perspective with a Master's in Software Development and ongoing studies in Data Science to build technology that delivers measurable value.
+              I'm a Full-Stack Software Engineer passionate about building applications that create real impact. My career began in business administration and financial analysis, where I learned how to identify challenges and measure results. Today, I combine that business perspective with a Master's in Software Development and ongoing studies in Data Science to build technology that delivers measurable value.
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">

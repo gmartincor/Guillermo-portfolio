@@ -89,7 +89,7 @@ export const skillCategories = [
 
 export const personalInfo = {
   name: 'Guillermo Martín Correa',
-  title: 'Full-Stack Software Developer',
+  title: 'Full-Stack Software Engineer',
   tagline: 'Building scalable applications with a strong foundation in AI and automation',
   email: 'guillermomc007@gmail.com',
   phone: '+61 482 714 835',

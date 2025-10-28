@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="flex items-center justify-center mb-8">
           <div className="bg-white dark:bg-gray-800 px-8 py-4 rounded-full border border-gray-200 dark:border-gray-700 shadow-sm">
             <span className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-              Full-Stack Software Developer
+              Full-Stack Software Engineer
             </span>
           </div>
         </div>
